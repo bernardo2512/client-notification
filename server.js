@@ -8,6 +8,8 @@ app.use(cors())
 
 
 // Rotas
+app.get("/",(req,res)=> res.send("ok"))
+
 app.post('/api',(req,res) => {
     console.log(req.body);
     res.send();
